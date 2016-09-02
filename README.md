@@ -3,7 +3,7 @@
 MARC::Parser::XML - Parser for MARC XML records
 
 [![Build Status](https://travis-ci.org/jorol/MARC-Parser-XML.png)](https://travis-ci.org/jorol/MARC-Parser-XML)
-[![Coverage Status](https://coveralls.io/repos/jorol/MARC-Parser-XML/badge.png?branch=devel)](https://coveralls.io/r/jorol/MARC-Parser-XML?branch=devel)
+[![Coverage Status](https://coveralls.io/repos/github/jorol/MARC-Parser-XML/badge.png?branch=devel)](https://coveralls.io/github/jorol/MARC-Parser-XML?branch=devel)
 [![Kwalitee Score](http://cpants.cpanauthors.org/dist/MARC-Parser-XML.png)](http://cpants.cpanauthors.org/dist/MARC-Parser-XML)
 
 # SYNOPSIS
