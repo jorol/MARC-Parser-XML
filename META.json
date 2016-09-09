@@ -31,19 +31,25 @@
       },
       "develop" : {
          "requires" : {
+            "Code::TidyAll" : "0",
             "Dist::Milla" : "v1.0.16",
-            "Test::Pod" : "1.41"
+            "Perl::Tidy" : "0",
+            "Test::Code::TidyAll" : "0.20",
+            "Test::Perl::Critic" : "0",
+            "Test::Pod" : "1.41",
+            "Text::Diff" : "0"
          }
       },
       "runtime" : {
          "requires" : {
             "Carp" : "0",
-            "XML::LibXML::Reader" : "0"
+            "XML::LibXML::Reader" : "0",
+            "perl" : "v5.10.1"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.96"
+            "Test::More" : "0"
          }
       }
    },
@@ -59,7 +65,7 @@
          "web" : "https://github.com/jorol/MARC-Parser-XML"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0217"
 }
 
