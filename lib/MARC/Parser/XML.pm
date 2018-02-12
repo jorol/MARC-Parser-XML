@@ -65,7 +65,7 @@ sub _decode {
 
         if ( $field_node->localName =~ m/leader/ ) {
             push @record,
-                [ 'ldr', undef, undef, '_', $field_node->textContent ];
+                [ 'LDR', undef, undef, '_', $field_node->textContent ];
         }
         elsif ( $field_node->localName =~ m/controlfield/ ) {
             push @record,
